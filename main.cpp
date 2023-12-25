@@ -1,8 +1,11 @@
 #include <iostream>
-
+#include "Person.h"
 
 
 int main()
 {
-    std:: cout << "First time using Git\n";
+    Person me{"TD",19,1};
+    me.talk();
+    me.play();
+    me.eat();
 }
