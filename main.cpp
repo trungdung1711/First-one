@@ -4,8 +4,10 @@
 
 int main()
 {
-    Person me{"TD",19,1};
-    me.talk();
-    me.play();
-    me.eat();
+    Person* me{ new Person("TD",19,1) };
+    me->eat();
+    me->play();
+    me->talk();
+    delete me;
+    return 0;
 }

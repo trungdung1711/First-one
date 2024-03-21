@@ -3,28 +3,28 @@
 
 Person :: Person(std:: string name, int age, bool sex): m_name {name}, m_age{age}, m_sex{sex}
 {
-    std:: cout << "Human created\n";
+    std:: cout << "Human born\n";
 }
 
 
 
 void Person :: talk()
 {
-    std:: cout << "fuck\n";
+    std:: cout << "Hi\n";
 }
 
 
 
 void Person :: eat()
 {
-    std:: cout << "delicious\n";
+    std:: cout << "Delicious\n";
 }
 
 
 
 void Person :: play()
 {
-    std:: cout << "funny\n";
+    std:: cout << "Funny\n";
 }
 
 
